@@ -30,6 +30,7 @@ const Register = ({ language }) => {
             <div className="map-container">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d18638.318958023043!2d-122.83625234283747!3d49.046708003133546!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485c4a1c27a84fd%3A0x7fe45f0eca945635!2sStar%20of%20the%20Sea%20Catholic%20School!5e0!3m2!1sen!2sca!4v1740718010745!5m2!1sen!2sca"
+                title="Star of the Sea Catholic School"
                 width="400"
                 height="300"
                 style={{ border: 0 }}
@@ -66,6 +67,7 @@ const Register = ({ language }) => {
             <div className="map-container">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2615.5579384408525!2d-122.87794872386979!3d49.038014188049466!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5485c32956e0e2c9%3A0x5645675d45123a2b!2sOcean%20Cliff%20Elementary%20School!5e0!3m2!1sen!2sca!4v1740718449931!5m2!1sen!2sca"
+                title="Ocean Cliff Elementary School"
                 width="400"
                 height="302"
                 style={{ border: 0 }}
