@@ -1,0 +1,280 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+.navbar {
+  border-bottom: 2px solid #ddd;
+}
+
+.nav-link {
+  font-weight: bold;
+  padding: 10px 15px;
+  color: #1e1e1e !important;
+}
+
+.nav-link.active {
+  color: #d9534f !important;
+  text-decoration: underline;
+}
+
+.hero-section h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.hero-section h2 {
+  font-size: 2rem;
+}
+
+.hero-section {
+  position: relative;
+  background: url("../public/images/shuttlecock.jpg") center/cover no-repeat;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  padding-top: 40px;
+  max-width: 1320px; /* Limit the width */
+  margin: 0 auto; /* Center the section */
+}
+
+
+.hero-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+.about-section {
+  max-width: 500px;
+  position: absolute;
+  top: 47%;
+  left: 11%;
+  background: #002b7a;
+  color: white;
+  padding: 30px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.promotions-section {
+  background: #f5f2e9;
+  padding: 60px 20px;
+  text-align: left;
+  margin: 0 auto;
+}
+
+.promotions-section h1 {
+  background: #f5f2e9;
+  color:#002b7a;
+  padding: 15px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  text-align: center;
+}
+
+
+
+.promotions-section li {
+  margin-bottom: 25px;
+  font-size: 1.1rem;
+ 
+}
+
+.promotions-section li strong {
+  color: #002b7a; /* Highlight important parts */
+}
+
+.contact-section {
+  background: #f5f2e9;
+  padding: 40px 20px;
+}
+
+
+
+/* App.css */
+.about-hero-section {
+  background: #002b7a;
+  padding: 50px 30px;
+  color: white;
+  
+}
+
+.mission-vision-section {
+  background: #f5f2e9;
+  padding: 60px 20px;
+  
+}
+
+footer {
+  background: #f5f2e9;
+  padding: 20px 0;
+  color: #333;
+}
+
+
+.classes-hero-section {
+  background: #002b7a;
+  padding: 50px 0;
+  color: white;
+}
+
+.classes-section {
+  background: #f5f2e9;
+  padding: 60px 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+.level-box {
+  background: #002b7a;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  padding: 20px; /* Reduced padding to allow more space */
+  text-align: center;
+  border-radius: 10px;
+  margin: 10px 0;
+  height: 200px; /* Ensures all boxes have the same height */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* Prevents overflow */
+  position: relative;
+}
+
+.level-box p {
+  font-size: 1rem;
+  font-weight: normal;
+  padding: 10px;
+  margin: 0;
+  text-align: center;
+  max-width: 90%;
+  word-wrap: break-word; /* Ensures text breaks properly */
+  overflow: hidden;
+}
+
+
+.register-hero-section {
+  background: #002b7a;
+  padding: 50px 0;
+  color: white;
+}
+
+.schedule-section {
+  background: #f5f2e9;
+  padding: 60px 20px;
+}
+
+.schedule-section h3 {
+  font-size: 1.8rem;
+  
+}
+
+.schedule-section p {
+  font-size: 1.2rem;
+  
+}
+
+.map-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.photo-gallery-hero {
+  background: #002b7a;
+  padding: 50px 0;
+  color: white;
+}
+
+.gallery-section {
+  background: #f5f2e9;
+  padding: 60px 20px;
+}
+
+.gallery-img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.contact-section {
+  background: #f5f2e9;
+  padding: 40px 20px;
+}
+
+.contact-btn {
+  background: #002b7a;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.contact-btn:hover {
+  background: #001f5b;
+}
+
+
+.contact-hero-section {
+  background: #002b7a;
+  padding: 50px 0;
+  color: white;
+}
+
+.contact-info-section {
+  background: #f5f2e9;
+  padding: 60px 20px;
+}
+
+.qr-code {
+  width: 150px;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+footer {
+  background: #f5f2e9;
+  padding: 20px 0;
+  color: #333;
+}
+
+.carousel-item img {
+  max-height: 500px; /* Adjust height as needed */
+  width: 100%;
+  object-fit: contain;  /* Ensures the entire image is visible */
+  margin: auto;  /* Centers the image */
+}
+
+
+
+
+
